@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dandelions</title>
+    <link rel="icon" href="Images/dp.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97446b8f60.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+        .f_icon:after{
+           content: "\f164";
+          font-family: 'Font Awesome 5 Pro';
+          font-weight: 900;
+        }
+      </style>
+    
+
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!--cdn js waypoints //  owl corausel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!--cdnjs.com owlcorausel asset-type="styling"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+      <!--cdnjs.com typed.js-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+      
+</head>
+
+<style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      overflow: overlay;
+    }
+    
+    /* .div1 {
+      background: gray;
+      margin-top: 200px;
+      margin-bottom: 20px;
+      height: 20px;
+    }    >>if not working you can add div1 as class in all section */
+    
+    ::-webkit-scrollbar {
+      width: 9px;
+      height: 5px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: rgba(90, 90, 90);
+      border-radius: 100px 100px 100px 100px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb:hover{
+    background: #34656D;
+} 
+    </style>
+
+
+
+
+<body>
+
+
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+	
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- navbar html -->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Dandelions<span>.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#service" class="menu-btn"> Services</a></li>
+                <li><a href="#skill" class="menu-btn">Skills</a></li>
+                <li><a href="#team" class="menu-btn">Teams</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width"> 
+            <div class="home-content">
+                <div class="text-1">Hello, I am</div>
+                <div class="text-2">Ramuna Pun</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="" class="say-hello">Say Hello !</a>
+
+
+
+
+
+                <div class="side-nav">
+                    <ul class="menus">
+                        <div class="slider"></div>
+                        <li><a href="#"  class="active-icon side">  <i class="fas fa-home"></i>       <span>Home</span></a></li>
+                        <li><a href="#about" class="side">   <i class="fas fa-heart"></i>    <span>About</span></a></li>
+                        <li><a href="#service" class="side">   <i class="fas fa-cog"></i>        <span>Service</span></a></li>
+                        <li><a href="#skill" class="side">   <i class="fas fa-search"></i>     <span>Skills</span></a></li>
+                        <li><a href="#team" class="side">   <i class="fas fa-user"></i>       <span>Team</span></a></li>
+                 </ul>
+                </div>
+            </div> 
+
+
+            
+        </div>
+    </section>     <!--end home section--> 
+
+
+
+
+
+
+
+
+    <!-- about section start -->
+    <section class="about" id="about">
+            <div class="max-width">
+                <h2 class="title">About me</h2>
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="images/pun-potrait.jpg" alt="pun-dd">
+                    </div>
+                    <div class="column right">
+                        <div class="text">I'm Ramuna and I'm a <span class="typing-2"></span></div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, minus corrupti. Ullam minus accusantium, nemo similique illo ut facere voluptatem impedit rerum repudiandae nihil temporibus, reprehenderit inventore vitae incidunt expedita odio excepturi facilis ab? Voluptas unde facere quibusdam rem libero officia blanditiis iusto, esse nobis, nisi velit ratione, ad explicabo incidunt debitis cupiditate cum praesentium exercitationem. Alias rem harum molestiae.</p>
+                        <a href="">Download CV</a>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!-- end about section -->
+
+
+
+    <!-- Service section start -->
+    <section class="service" id="service">
+        <div class="max-width">
+            <h2 class="title">My Services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-camera-retro"></i>
+                        <div class="text">Photography</div>
+                        <p>Photography is a way of feeling, of touching, of loving.
+                            It remembers little things, long after you have forgotten everything.
+                            </p>
+                
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-record-vinyl"></i>
+                        <div class="text">Music</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugit odit ipsam tempora odio consequatur!</p>
+                
+                    </div>
+                </div>
+
+                <div class="card card-filmmaking">
+                    <div class="box">
+                        <i class="fas fa-film"></i>
+                        <div class="text">Film Making</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugit odit ipsam tempora odio consequatur!</p>
+                
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end about section -->
+
+
+
+    <!--My Skills section-->
+    <section class="skill" id="skill">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skill-content">
+
+
+                <div class="column left">
+                    <div class="text">My Skills & Experience</div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque officiis numquam ducimus omnis accusantium dolore fugit voluptatem nobis temporibus possimus optio rem quasi quas eius dolorum praesentium consequatur, perspiciatis assumenda. ipsum dolor sit amet consectetur adipisicing elit. Maiores velit, voluptatem natus veritatis voluptatum autem reiciendis aliquid consequuntur iste inventore blanditiis corrupti impedit aut sapiente neque vel assumenda maxime hic?</p>
+                    
+                    <a href="">Read More</a>
+                </div>
+
+
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>Film-Making</span>
+                            <span>90%</span> 
+                        </div>
+                        <div class="line fm"></div>
+                    </div>
+                    
+                    <div class="bars">
+                        <div class="info">
+                            <span>Photography</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line ph"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>Hempnath</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line hm"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>Content Creator</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line cc"></div>
+                    </div>
+
+                    <div class="bars"> 
+                        <div class="info">
+                            <span>Painter</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line pp"></div>
+                    </div>
+
+                                
+                            
+                </div>
+            </div>
+
+             </div>
+        </div>
+    </section>   <!--end of skill section-->
+
+
+<!-- my team section -->
+<section class="team" id="team">
+    <div class="max-width">
+        <h2 class="title">My Team</h2>
+
+        <div class="team-content">
+
+           <div class="carousel owl-carousel">
+
+            <div class="card">
+                <div class="box">
+                    <img src="images/team-rpun.jpg" alt="ramunapun-team">
+                    <div class="text">Ramuna</div>
+                    <p>Lorem ipsum  adipisicing , eaque.</p>
+                </div>
+            </div>   <!--card 1-->
+
+            <div class="card">
+                <div class="box">
+                    <img src="images/team-jan.jpg" alt="janaki-team">
+                    <div class="text">Janaki</div>
+                    <p>Lorem, ipsum dolor si At, enim!</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <img src="Images/team-din.jpg"  alt="dinesh">
+                    <div class="text">Dinesh</div>
+                    <p>Lorem ipsum dolor Sint, ad.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <img src="Images/team-kal.jpg" alt="kalpana">
+                    <div class="text">Kalpana</div>
+                    <p>Lorem ipsum. Dicta, sapiente?</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <img src="Images/team-kus.png" alt="kusuma">
+                    <div class="text">Kusuma</div>
+                    <p>Lorem ipsum elit. Dicta, sapiente?</p>
+                </div>
+            </div>
+
+           </div>
+         </div>
+        </div>
+    </div>
+</section>
+<!--end of team section-->
+
+
+<!-- contact me section -->
+<section class="contact" id="contact">
+    <div class="max-width">
+        <h2 class="title">Contact Me</h2>
+
+        <div class="contact-content">
+
+            <div class="column left">
+                <div class="text">Get in Touch</div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit modi ab sed aspernatur alias, reprehenderit delectus ipsum dolorum deserunt unde.</p>
+
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Ramuna Pun</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                            <div class="head">Address</div>
+                            <div class="sub-title">Kathmandu,Nepal</div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">ramunapun@gmail.com</div>
+                        </div>
+                    </div>
+
+                </div>
+        
+
+
+            <!--right column // contact-->
+
+            <div class="column right">
+            
+                    <div class="text">Message Me</div>
+
+                    <form action="#" method="post">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+
+
+                        <div class="field subject">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+
+                        <div class="field textarea">
+                            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+
+                        <div class="button">
+                            <button type="submit">
+                                Send message
+                            </button>
+                        </div>
+
+                    </form>  
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of contact me section -->
+
+
+
+    <!-- footer section -->
+    <div class="footer">
+        <footer>
+            <span>
+                Created by <a href="#">MayaNepal</a> | <span class="far fa-copyright"></span> 2021 All Rights Reserved
+             </span>        
+        </footer>
+    </div>
+        
+    
+    <!--end of footer section-->
+
+    <script src="script.js"></script>
+</body>
+</html>
